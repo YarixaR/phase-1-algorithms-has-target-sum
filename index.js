@@ -1,5 +1,7 @@
 function hasTargetSum(array, target) {
-  // Write your algorithm here
+for (const num of array) {
+  if (num === target.length) return true;
+}
 }
 
 /* 
@@ -8,7 +10,8 @@ function hasTargetSum(array, target) {
 
 /* 
   Add your pseudocode here
-*/
+*/ //for every number in the array, if 
+// number + number = 10; return true
 
 /*
   Add written explanation of your solution here
